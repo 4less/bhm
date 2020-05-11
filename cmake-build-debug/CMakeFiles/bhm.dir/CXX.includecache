@@ -22,10 +22,6 @@ DLList.h
 KmerQueue.h
 /home/joachim/CLionProjects/bhm/KmerQueue.h
 
-/home/joachim/CLionProjects/bhm/DLList.cpp
-DLList.h
-/home/joachim/CLionProjects/bhm/DLList.h
-
 /home/joachim/CLionProjects/bhm/DLList.h
 lzma.h
 -

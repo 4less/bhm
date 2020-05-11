@@ -458,7 +458,7 @@ void BHashMap<KeyBits, ValueBits>::resizeInsert(int index, int oldN, KmerQueue<M
     cout << "beginning "<< endl;
     printMap();
 
-    string interrupt;
+
 
     uint8_t kv[M];
     uint8_t keyT[KEY_BYTES];
@@ -549,13 +549,10 @@ void BHashMap<KeyBits, ValueBits>::resizeInsert(int index, int oldN, KmerQueue<M
 
     cout << "after processed " << h << endl;
     printMap();
-
+    string interrupt;
     cin >> interrupt;
-
-    cout << "address " << &interrupt << endl;
-
-    cout << "end " << h << endl;
     printMap();
+
     resizeInsert(++index, oldN, queue, processed);
 }
 
