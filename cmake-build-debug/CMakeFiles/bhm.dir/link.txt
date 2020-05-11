@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bhm.dir/main.cpp.o CMakeFiles/bhm.dir/BHashMap.cpp.o CMakeFiles/bhm.dir/Log.cpp.o CMakeFiles/bhm.dir/DLList.cpp.o CMakeFiles/bhm.dir/KmerQueue.cpp.o  -o bhm 
